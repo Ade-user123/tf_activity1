@@ -1,17 +1,28 @@
-# Creation of resource group using terraform
- 
-# There are two prerequisites followed to do this
-# Firstly, create service principal which is actually created the resources
-# Make service principal as contributor access
+# Folder
+# create_rg_with_module
 
-# Set the environmemtal variables as below
+# Introduction
+# This is the terraform script to create RG and storage account using module
 
-
-# Create the new file main.tf under the directory E:\Terraform\code\tf_activity1\main1
-# In this file, i have given the provider and resource group information
-# Created the variable files.
-# By using variables created the storage account resource group
-# Later run the terraform commands
-# Commit the code and push it to the git
-
-
+# Folder structure
+# 	tf_main -> which has main terraform scripts
+#	variables -> is having all the variables and default values
+#	outputs.tf -> is having all the values that are writing outputs
+#	README.md -> is containing all the help
+# Pre-requisites
+# 1. Need to have Azure service principal -> with contributor role is assigned
+# 2. Set below envirnment variables
+#	ARM_TENANT_ID
+#	ARM_SUBSCRIPTION_ID
+#	ARM_CLIENT_ID
+#	ARM_CLIENT_SECRET
+# Terraform commands
+# - Run all the terraform commands from tf_main folder
+# - No need to import/reference. with in the folder, terraform understands and reads all the .tf files
+# ---------
+# Terraform Init
+# Terraform validate
+# Terraform plan
+# Terraform apply
+# Terraform destroy
+# ---------
