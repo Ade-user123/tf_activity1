@@ -1,5 +1,4 @@
 # Folder
- create_rg_with_module
  Introduction
  This is the terraform script to create RG and storage account,FunctionApp using module
  Folder structure
