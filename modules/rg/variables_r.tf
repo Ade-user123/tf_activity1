@@ -1,6 +1,6 @@
 variable "rg_name"{
     description = "Resorce group name"
-    default = "adedevops-modules-rg"
+    default = "adedevops-modules-RGFunctionApp"
 }
 variable "location" {
     description = "location where the resource will be created"
