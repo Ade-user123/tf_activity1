@@ -3,9 +3,8 @@ variable "sp_name"{
     default = "adedevopsmoduleserviceplan"
 }
 variable "splocation" {
-    description = "location where the resource will be created"
-    default = "uksouth"
+    default = ""
 }
 variable "spresource_group_name" {
-  default = "adedevops-modules-RGFunctionApp"
+  default = ""
 }

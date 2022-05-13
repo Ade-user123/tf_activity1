@@ -3,11 +3,10 @@ variable "fapp_name" {
   default = "adedevopsmodulefunctionapp"
 }
 variable "fapplocation" {
-    description = "location where the resource will be created"
-    default = "uksouth"
+  default = ""
 }
 variable "fappresource_group_name" {
-  default = "adedevops-modules-RGFunctionApp"
+  default = ""
 
 }
 

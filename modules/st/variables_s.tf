@@ -1,7 +1,6 @@
 // variable declaration for storage account
 variable "location" {
-    description = "location where the resource will be created"
-    default = "uksouth"
+    default = ""
 }
 variable "account_tier" {
   default = "Standard"
@@ -19,7 +18,7 @@ variable "tags" {
 }
 variable "resource_group_name"{
     
-    default = "adedevops-modules-RGFunctionApp"
+    default = ""
 }
 variable "storage_name"{
     
